@@ -1,0 +1,121 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/Lantai.jpeg);
+}
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-container img{
+    width: 150px;
+    border-radius: 450%;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40x;
+    font-size: 20px;
+}
+.link-item{
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color:  purple   ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 7px 7px black;
+}
+.link-item:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 104%;
+    height: 58px;
+    transition: width 1s;
+}
+.link-item2:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 104%;
+    height: 58px;
+    transition: width 1s;
+}
+.link-item3:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 104%;
+    height: 58px;
+    transition: width 1s;
+}
+.link-item p{
+    margin-right: 60px;
+
+}
+h1{
+    color:#f0f0f0;
+}
+p{
+    color: white;
+}
+.link-item2{
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 7px 7px black;
+}
+#paragraf1{
+    color: white;
+}
+#paragraf2{
+    color: white;
+    margin-right: 60px;
+}
+#paragraf3{
+    color: white;
+    margin-right: 60px;
+}
+.icon{
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+.link-item3{
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color:  blue;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 7px 7px black;
+}
+#para1{
+    color: #f0f0f0;
+    font-size: 25px;
+}
